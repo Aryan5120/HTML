@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and clear</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .stationary
+        {
+             width: 500px;
+             border:5px solid red;
+             margin: auto ;
+             background-color: rgb(110, 126, 139);
+             border-radius: 20px;
+            
+
+        }
+        .item{
+            border:5px solid green;
+            margin:10px 10px;
+            padding: 0px 74px px 13px;
+        }
+         #rub{
+            float: left;
+            width: 241px;
+            
+        }
+        #pen{
+            float: right;
+            width: 199px;
+
+        }
+        #fevicol{
+           clear:both; 
+           clear:left;
+           width:472px;
+
+        }
+        h1{
+            text-align: center;
+        }
+         
+
+    </style>
+
+</head>
+<body>
+    <div class="stationary">
+        <h1>List of Stationary</h1>
+        <div id="rub" class="item">
+            
+
+        <h3>Rubber</h3>
+        <p id="Rubberinfo" class="para">
+        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat distinctio officia nam quibusdam iusto rem incidunt, dolorum adipisci esse placeat possimus voluptatem sed nulla repellat.
+        </p>
+        
+    </div>
+    
+        <div id="pen" class="item">
+        <h3>Pens</h3>
+        <p id="Pensinfo" class="para">
+        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat distinctio officia nam quibusdam iusto rem incidunt, dolorum adipisci esse placeat possimus voluptatem sed nulla repellat.
+        </p>
+        
+    </div>
+
+        <div id="fevicol" class="item">
+        <h3>Fevicol</h3>
+        <p id="fevicolinfo" class="para">
+        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat distinctio officia nam quibusdam iusto rem incidunt, dolorum adipisci esse placeat possimus voluptatem sed nulla repellat.
+        </p>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
