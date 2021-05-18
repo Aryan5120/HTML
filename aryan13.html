@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and styling buttons</title>
+    <style>
+        .container{
+            border:10px solid red;
+            background-color: rgb(61, 61, 73);
+            border-radius: 2px;
+            margin:35px auto;
+            padding:34px;
+            width:800px;
+
+        }
+        a{
+            /* background-color: rgb(39, 35, 43); */
+            border:4px solid blue;
+            border-radius: 5px;
+            font-family: fantasy;
+        }
+        a:hover
+        {
+            background-color: chartreuse;
+            border:3px solid rgb(157, 165, 42);
+        }
+
+         a:visited
+        {
+            background-color: rgb(255, 0, 191);
+        }
+        a:active{ 
+            background-color: cornsilk;
+        }  
+        .btn{
+            background-color: orangered;
+            border-radius: 5px;
+            font-family: unset;
+        }
+        .btn:hover{
+            background-color: rgb(251, 152, 160);
+            border:3px solid rgb(92, 154, 205);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="item">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quae corporis incidunt dolorem ex. Cumque, doloremque? Omnis dolor expedita dolore pariatur iusto tempore nostrum est.</p>
+    
+    <a href="https://instagram.com"  target="_blank">Instagram</a>
+    <button class="btn">Search</button>
+    </div>
+    
+</body>
+</html>
